@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from geopy.geocoders import Nominatim
 
 st.set_page_config(layout="wide")
 df = pd.read_csv("happy.csv")
